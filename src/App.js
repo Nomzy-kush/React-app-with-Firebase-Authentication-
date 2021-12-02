@@ -89,7 +89,9 @@ useEffect(() => {
   return (
     <div className="App">
       {user ? (
-              <Home handleLogout={handleLogout} />
+              <Home 
+              handleLogout={handleLogout}
+              onChange={handleLogout} />
 
       ) : (
         <SignIn 

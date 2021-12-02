@@ -1,7 +1,12 @@
 import React from 'react'
 import "./App.css"
+import fire from './fire'
 
-const Home = (handleLogout) => {
+const handleLogout = () => {
+    fire.auth().signOut()
+  }
+
+const Home = () => {
     return (
         <section className="hero">
         <div className="welcome-div">
