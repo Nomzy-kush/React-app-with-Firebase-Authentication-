@@ -1,6 +1,9 @@
+// importing the app configuration keys we got from Firebase 
+
+
 import firebase from 'firebase';
 
-var firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyD0QMLCPnFtlE4jd5jl2NfY4Kkh7xgVBoA",
     authDomain: "react-firebase-auth-85a1f.firebaseapp.com",
     projectId: "react-firebase-auth-85a1f",
